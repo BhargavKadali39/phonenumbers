@@ -32,3 +32,16 @@ print("Valid cellular phone number:",phonenumbers.is_valid_number (mobileNumber)
 # Making sure the number is available.
 
 print("Checking possibility of Number :", phonenumbers.is_possible_number(mobileNumber))
+
+'''
+Test output:
+**Enter the mobile number with the country ID
+Ex +129876543210
++91xxxxxxxxxx
+('Asia/Calcutta',)
+Reliance Jio
+भारत
+Valid cellular phone number: True
+Checking possibility of Number : True
+**
+'''
