@@ -4,6 +4,9 @@ Phonenumbers are one of the modules that provides numerous features like providi
 validation of a phone number etc.</h2>
 Here, we will learn how to use phonenumbers module just by writing simple Python programs. 
 
+First use the below command to install required module.
+
+    pip install phonenumbers
 
 Some of the use cases are,
 __Get Timezone:__
@@ -25,3 +28,16 @@ Validation of a phone number:
 *A simple python program, to check whether a given phone number is valid or not (e.g. it’s in an assigned exchange), and to check whether a given phone number is possible or not (e.g. it has the right number of digits).*
 
 **ex: phonenumbers.is_valid_number (mobileNumber)**
+
+
+    Test output:
+    Enter the mobile number with the country ID
+    Ex +129876543210
+    +91xxxxxxxxxx
+    ('Asia/Calcutta',)
+    Reliance Jio
+    भारत
+    Valid cellular phone number: True
+    Checking possibility of Number : True
+
+
