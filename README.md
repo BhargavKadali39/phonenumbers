@@ -33,6 +33,7 @@ Validation of a phone number:
     Test output:
     Enter the mobile number with the country ID
     Ex +129876543210
+    
     +91xxxxxxxxxx
     ('Asia/Calcutta',)
     Reliance Jio
